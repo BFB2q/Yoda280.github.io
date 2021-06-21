@@ -1,48 +1,50 @@
-
-<script type='text/javascript' src='http://m.free-codes.org/g.php?id=2002'></script><body >
-
+<!DOCTYPE html>
+<html>
+<body>
 
     <script type="text/javascript">
-    var msg = 'Welcome To My Site '
-    var colorTimer = null;
-    
-    function toHex(n){
-    var hexChars = '0123456789ABCDEF';
-    if (n == 0) return n;
-    var j, k;
-    var temp = '';
-    while (n != 0){
-    j = n % 16;
-    n = (n - j)/16;
-    temp = hexChars.charAt(j) + temp;
-    }
-    return temp;
-    }
-    function colorize(){
-    if (!document.getElementById) return;
-    for (i=0; i<msg.length; i++){
-    k = Math.round(Math.random() * 16777215);
-    k = toHex(k);
-    while (k.length < 6){
-    k = k + '0';
-    }
-    document.getElementById('colorizer' + i).style.color = '#' + k;
-    }
-    colorTimer = window.setTimeout('colorize()', 230);
-    }
-    </script>
-    
-    <BODY onload='colorize();'>
-    
-    <div id="text" style="font-size:35px ; font-family: 'Times New Roman', Courier, monospace; letter-spacing:normal; font-weight:bold; font-style:normal; text-align:center; padding-top:15px;">
-    <script>
-    for (var i=0; i<msg.length; i++){
-    document.write("<span id ='colorizer" + i + "'>" + msg.charAt(i) + "</span>");
-    }
-    </script></div>
-    
-    
-    
-    
-    
-    </body><a target="_blank" href="http://free-web-tools.com/category/codes/" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute">free codes</a><a target="_blank" href="http://www.javascriptbestcodes.com" style="font-size: 8pt; text-decoration: none">Javascript Codes</a>
+        var msg = 'Welcome To My Site '
+        var colorTimer = null;
+        
+        function toHex(n){
+        var hexChars = '0123456789ABCDEF';
+        if (n == 0) return n;
+        var j, k;
+        var temp = '';
+        while (n != 0){
+        j = n % 16;
+        n = (n - j)/16;
+        temp = hexChars.charAt(j) + temp;
+        }
+        return temp;
+        }
+        function colorize(){
+        if (!document.getElementById) return;
+        for (i=0; i<msg.length; i++){
+        k = Math.round(Math.random() * 16777215);
+        k = toHex(k);
+        while (k.length < 6){
+        k = k + '0';
+        }
+        document.getElementById('colorizer' + i).style.color = '#' + k;
+        }
+        colorTimer = window.setTimeout('colorize()', 230);
+        }
+        </script>
+        
+        <BODY onload='colorize();'>
+        
+        <div id="text" style="font-size:35px ; font-family: 'Times New Roman', Courier, monospace; letter-spacing:normal; font-weight:bold; font-style:normal; text-align:center; padding-top:15px;">
+        <script>
+        for (var i=0; i<msg.length; i++){
+        document.write("<span id ='colorizer" + i + "'>" + msg.charAt(i) + "</span>");
+        }
+        
+<h1>Yello! IM Yoda!</h1>
+<p>Im pretty new to coding so if you have any tips please suggest them!</p>
+<p>Also i big shout out to Kyro#4857 for pushing me to be my best!</p>
+<p>reach me out on discord at 🐻 Sleepy Bear#0010</p>
+<h2>I will be adding more to this latter! for now bye!</h2>
+<a href="https://github.com/Yoda280" class="button">My Gituhb</a>
+</body>
+</html>
